@@ -25,5 +25,23 @@ The model is trained on the [Medical Cost Personal Datasets](https://www.kaggle.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+git clone [https://github.com/JonasMnsing/medical-cost-predictor.git](https://github.com/JonasMnsing/medical-cost-predictor.git)
 cd YOUR_REPO_NAME
+```
+
+### 2. Environment Setup
+
+This project uses `pipenv` for dependency management and virtual environment isolation.
+
+1. Ensure you have `pipenv` installed:
+    ```bash
+    pip install pipenv
+    ```
+2. Install the required dependencies from the Pipfile.lock:
+    ```bash
+    pipenv install
+    ```
+3. Activate the virtual environment:
+    ```bash
+    pipenv shell
+    ```
