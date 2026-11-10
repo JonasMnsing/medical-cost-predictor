@@ -10,8 +10,4 @@ scikit-learn = "*"
 matplotlib = "*"
 seaborn = "*"
 jupyter = "*"
-
-[dev-packages]
-
-[requires]
-python_version = "3.10"
+flask = "*"
