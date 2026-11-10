@@ -11,5 +11,3 @@ matplotlib = "*"
 seaborn = "*"
 jupyter = "*"
 flask = "*"
-
-[dev-packages]

@@ -25,8 +25,8 @@ The model is trained on the [Medical Cost Personal Datasets](https://www.kaggle.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/JonasMnsing/medical-cost-predictor.git](https://github.com/JonasMnsing/medical-cost-predictor.git)
-cd YOUR_REPO_NAME
+git clone https://github.com/JonasMnsing/medical-cost-predictor.git
+cd medical-cost-predictor
 ```
 
 ### 2. Environment Setup
