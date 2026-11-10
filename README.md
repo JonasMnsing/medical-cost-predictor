@@ -64,3 +64,21 @@ With the container running, open a new terminal and run your test script:
 ```bash
 python test.py
 ```
+
+### 4. Cloud Deployment (Render)
+The application has been deployed to the cloud using Render. You can test the live prediction API without running Docker or Python locally.
+
+**Public API URL:** 
+`https://medical-cost-predictor-quk0.onrender.com/predict`
+
+**How to test:**
+You can send a POST request to the URL using `curl`, Postman, or the provided `test.py` script. 
+
+*Important Note for Peer Reviewers:* Because this is hosted on Render's free tier, the instance spins down after 15 minutes of inactivity. **Your first request may take up to 50 seconds to process** while the server wakes up. Subsequent requests will be processed instantly.
+
+**Example using `curl`:**
+```bash
+curl -X POST https://medical-cost-predictor-quk0.onrender.com/predict \
+     -H "Content-Type: application/json" \
+     -d '{"age": 30, "sex": "male", "bmi": 35.5, "children": 1, "smoker": "yes", "region": "southwest"}'
+```
